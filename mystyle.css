@@ -1,0 +1,76 @@
+body{
+background-color: CornflowerBlue;
+background-image: url("rgb.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+h1{color: white;
+   font-size: 36px;
+	margin-left: 200px;}
+
+head{color: white;
+   font-size: 32px;}
+
+.imagetrin { 
+   position: absolute;
+   top: 150px;
+  right: 500px;
+}
+
+.image { 
+   position: left;
+   width: 100px;
+height: 100px;
+}
+
+.imagenav { 
+   position: fixed;
+   bottom: 600px;
+  left: 10px;
+  
+ }
+
+
+.imagewhite { 
+   position: absolute;
+   top: 90px;
+  left: 250px;
+  }
+
+h2 { 
+   position: fixed;
+  top: 120px;
+  left; 210px;
+  width: 800px;
+}
+
+h3 { 
+   position: absolute;
+   top: 150px; 
+   left: 20px; 
+   width: 500px; 
+}
+
+h4 { 
+   position: fixed;
+  top: 200px;
+  left; 20px;
+  width: 300px;
+}
+h5 { 
+font-size: large;
+   position: fixed;
+  top: 450px;
+  left; 20px;
+  width: 300px;
+}
+h6 {
+font-size: medium;
+   position: fixed;
+  top: 500px;
+  left; 20px;
+  width: 300px;
+}
+
