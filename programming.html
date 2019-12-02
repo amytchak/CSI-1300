@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>My Sketch</title>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.0/processing.min.js"></script>
+</head>
+<body>
+<script type="application/processing">
+
+void setup(){
+  size(500,500);
+}
+
+void draw(){
+  background(100,100,255);
+  //grass
+  fill(110,155,110);
+  rect(0, 400, 500, 500);
+  
+  //ballons
+  fill(255,0,0);
+ellipse(mouseX, mouseY, 70, 70);
+line(mouseX, mouseY, mouseX, mouseY+200);
+
+fill(0,255,0);
+ellipse(mouseX-60, mouseY-10, 70, 70);
+line(mouseX-60, mouseY, mouseX, mouseY+200);
+
+fill(0,0,255);
+ellipse(mouseX+60, mouseY-10, 70, 70);
+line(mouseX+60, mouseY, mouseX, mouseY+200);
+
+//kid
+fill(240, 209, 139);
+ellipse(400,400, 70,150);
+ellipse(400,300, 70,70);
+//eyes
+fill(0,0,0);
+ellipse(380,300, 20,20);
+ellipse(420,300, 20,20);
+//arms
+line(380,400, 300,300);
+line(420,400, 300,300);
+
+//mouth
+fill(214, 43, 97);
+ellipse(400,320, 40,20);
+
+//sun
+fill(232, 235, 52);
+ellipse(0,0, 150,150);
+  
+}
+
+</script>
+<canvas> </canvas>
+</body>
+</html>
